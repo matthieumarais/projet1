@@ -70,7 +70,7 @@
 }
 
 .bgLogoSection1 {
-    background: url(/home/matthieu/Documents/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -410px;
+    background: url(/home/matthieu/Documents/projet1/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -410px;
     background-size: 200%
 }
 
@@ -117,7 +117,7 @@ footer .noPadding:last-child{
         overflow-x: hidden !important;
     }
     .bgLogoSection1 {
-        background: url(/home/matthieu/Documents/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -130px;
+        background: url(/home/matthieu/Documents/projet1/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -130px;
         background-size: 300%;
 }
 /****************************************************************************************/
