@@ -1,0 +1,123 @@
+/**********************************************  md  ************************************/
+@media all and (max-width: 1200px){
+    .imgAppli img {
+        top: -112px;
+    }
+    .bgSection1{
+        padding:100px 50px;
+    }
+    .bgLogoSection1 div {
+        height: 490px;
+    }
+}
+/****************************************************************************************/
+
+
+/**********************************************  sm  ************************************/
+
+@media all and (max-width: 992px){
+    h1{
+        font-size:30px;
+        line-height:35px;
+    }
+    .bgSection1{
+        padding:100px 0;
+    }
+    .bgLogoSection1 div {
+        height: 415px;
+    }
+    .imgAppli img {
+        top: -57px;
+    }
+    h2{
+        font-size: 32px;
+    line-height: 35px;
+    }
+
+    .optionList ul li a{
+        font-size:24px;
+    }
+
+    .working h3{
+        font-size:30px;
+        line-height: 35px;
+    }
+
+    .bgWorkingOrange, .bgWorkingGrey, .bgWorkingRed{
+        min-height:550px;
+    }
+
+    .txtHot button{
+        margin-top:0;
+    }
+
+    .footerBlocs{
+        padding:15px 10px;
+    }
+}
+/****************************************************************************************/
+
+
+/**********************************************  xs  ************************************/
+
+@media all and (max-width: 767px){	
+.hamburglar{
+	display:block
+}
+
+.bgSection1{
+    padding:25px 10px;
+}
+
+.bgLogoSection1 {
+    background: url(/home/matthieu/Documents/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -410px;
+    background-size: 200%
+}
+
+.bgLogoSection1 div {
+    height: 230px;
+}
+
+.bgLogoSection1 img{
+    width:20%;
+}
+
+.imgAppli img {
+    top: -35px;
+}
+
+.txtHotRspsive{
+    padding:20px 10px;
+}
+
+.bgWorkingRed, .bgWorkingOrange{
+    margin-bottom:30px;
+}
+
+.footerBlocs{
+    margin-bottom:30px;
+}
+
+footer .noPadding:first-child{
+    padding-left:15px;
+}
+
+footer .noPadding:last-child{
+    padding-right:15px;
+}
+
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .bgLogoSection1 {
+        background: url(/home/matthieu/Documents/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -130px;
+        background-size: 300%;
+}
+/****************************************************************************************/

@@ -1,0 +1,503 @@
+h1{
+    font-size:40px;
+    line-height:45px;
+    color:#ffffff;
+    margin-bottom:30px;
+    font-weight: bold;
+}
+
+h2{
+    font-size:40px;
+    line-height: 45px;
+    font-weight: bold;
+    padding-bottom:35px;
+}
+
+h3{
+    font-size:22px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-bottom:5px;
+    margin:0;
+}
+
+p, a{
+    font-size:16px;
+    line-height: 20px;
+}
+
+a{
+    text-decoration:underline;
+}
+
+
+.scrollOn{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    /*background-color: #fff;
+    border-color: #fff;*/
+}
+
+
+.navbar{
+    margin-bottom:0;
+    z-index:10;
+}
+
+.navbar-brand>img{
+    width:160px;
+    height:49px;
+}
+
+.navbar-right{
+    background-color:#fff;
+    padding:10px;
+}
+
+.navbar-right:first-child{
+    border-radius:0 2px 2px 0;
+}
+
+.navbar-right:last-child{
+    border-radius:2px 0 0 2px;
+}
+
+.navbar-right a{
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color:#00ccbc;
+}
+
+.btn-nav{
+    background-color:#00ccbc;
+    color:#fff;
+    padding:13px 13px;font-weight: bold;
+    font-size:16px;
+}
+
+.navbar-form{
+    margin:0;
+}
+
+.btn-connexion{
+    background-color:#00ccbc;
+    color:#fff;
+    padding:13px 13px;font-weight: bold;
+    font-size:16px;
+
+}
+
+.bgConnexion{
+    background-color:#fff;
+}
+
+/*section1*/
+
+.bgSection1{
+    Background-color:#00ccbc;
+    padding:170px 100px;
+    max-height:540px;
+}
+
+.form-control{
+    height:60px;
+}
+
+section .btnSearch{
+    font-size:24px;
+    padding:12px 20px;
+    color:#fff;
+    background-color:#440063;
+}
+
+.bgLogoSection1{
+    background:url("/home/matthieu/Documents/Deliveroo/img/pasta-wide.jpg") no-repeat 0 0;
+    background-size: cover;
+}
+
+.bgLogoSection1 div{
+    height:540px;
+}
+
+.bgLogoSection1 img{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.cards, .delivery, .list, .hot, .working{
+    padding:50px 0 80px 0;
+}
+
+.imgBloc{
+    position:relative;
+    height: 150px;
+}
+
+.blocCard, .blocDelivery{
+    margin-bottom:32px;
+}
+
+.pCard{
+    margin:10px 0;
+}
+
+.blocCard div + div a{
+    color:#00ccbc;
+}
+
+.bloc1{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file.jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc2{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (1).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc3{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (2).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc4{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (3).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc5{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (4).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+.bloc6{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (5).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc7{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (6).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.txtCover{
+    font-size:40px;
+    line-height: 45px;
+    font-weight: bold;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left: 0;
+    right: 0;
+    transform:translatey(-50%);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:65px 0;
+}
+.txtCover:hover{
+    text-decoration: none;
+    color:#fff;
+    background-color:rgba(255, 255, 255,0.3);
+    transition:all ease 0.3s;
+}
+
+.bgDelivery{
+    background-color:#ffeae4;
+}
+
+.blocDelivery a{
+    height: 180px;
+    display:block;
+    margin-bottom:10px;
+}
+
+.bloc8{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (7).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc9 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (8).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc10 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (9).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc11 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (10).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc12 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (11).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc13 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (12).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc14 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (13).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc15 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (14).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc16 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (15).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc17 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (16).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc18 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (17).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc19 a{
+    background:url("/home/matthieu/Documents/Deliveroo/img/file (18).jpg")no-repeat 0 0;
+    background-size:cover;
+}
+
+.bloc8:hover{
+    background-color:rgba(255, 255, 255,0.3);
+    transition:all ease 0.3s;
+}
+
+.optionList ul{
+    padding:0;
+}
+
+.optionList ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 15px 10px;
+    margin: 16px 14px 0 0;
+    background-color: #f3f5f5;
+    border-radius: 5px;
+}
+
+.optionList ul li a{
+    font-size:28px;
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.noPaddingRight{
+    padding-right:0;
+}
+
+.noPaddingLeft{
+    padding-left:0;
+}
+
+.bgHot{
+    background-color:#f3f5f5;
+}
+
+.imgHot{
+    height:247px;
+    overflow: hidden;
+    margin-bottom:30px;
+}
+
+.imgHot img{
+    width:100%;
+}
+
+.txtHot{
+    padding:40px;
+    background-color:#fff;
+    margin-bottom:30px;
+    height:247px;
+}
+
+.txtHot h3{
+    font-size:28px;
+}
+
+.txtHot p, .txtHot button{
+    margin-top:20px;
+}
+
+.imgAppli{
+    position:relative;
+}
+
+.imgAppli img{
+    position: absolute;
+    top:-160px;
+}
+
+.bgWorkingRed{
+    background-color:#FF3D3D;
+    padding:30px;
+    min-height:470px;
+}
+
+.working img{
+    width:100%;
+}
+
+.working h3{
+    color:#fff;
+    font-size: 40px;
+    line-height:45px;
+    font-weight: bold;
+    padding-bottom:30px;
+}
+
+.working p{
+    color:#fff;
+    padding-bottom:30px;
+}
+
+.bgWorkingOrange{
+    background:#FF8100;
+    padding:30px;
+    min-height:470px;
+}
+
+.bgWorkingGrey{
+    background-color:#A0918A;
+    padding:30px;
+    min-height:470px;
+}
+
+.bgFooter{
+    background-color:#2E3333;
+}
+
+.footer{
+    padding:24px 0;
+}
+
+.footerBlocs{
+    background-color:#434848;
+    padding:20px;
+    height:192px;
+}
+
+.footer h3{
+    color:#fff;
+    font-size:16px;
+}
+
+.footer ul{
+    padding:0;
+}
+
+.footer ul li{
+    padding-bottom:10px;
+    list-style-type: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+}
+
+.footer a:hover{
+    color:#00ccbc;
+}
+
+footer .noPadding:first-child{
+    padding-left:0;
+}
+
+footer .noPadding:last-child{
+    padding-right:0;
+}
+
+.spriteApple{
+    background: url('/home/matthieu/Documents/Deliveroo/img/app-store-badges-fr-094b53f2d1964654c2392ab01778c750.svg') no-repeat 0 0;
+    width: 135px;
+    height: 40px;
+    display:inline-block;
+    text-indent: -99999px;
+}
+
+.spriteGooglePlay{
+    background: url('/home/matthieu/Documents/Deliveroo/img/app-store-badges-fr-094b53f2d1964654c2392ab01778c750.svg') no-repeat -135px 0;
+    width: 135px;
+    height: 40px;
+    display:inline-block;
+    text-indent: -99999px;
+}
+
+.social{
+    padding:0;
+    margin-top:10px;
+}
+
+.social li{
+    display:inline-block;
+    padding-right:10px;
+}
+
+.sprite1{
+    background: url('/home/matthieu/Documents/Deliveroo/img/page-footer--social-24678b1c7cc1b04637a2df5d63787b0e.svg') no-repeat 0 -35px;
+    width: 30px;
+    height: 32px;
+    display:inline-block;
+    text-indent: -99999px;
+    background-size:90px;
+}
+
+.sprite1:hover{
+   background-position:left top;
+}
+
+.sprite2{
+    background: url('/home/matthieu/Documents/Deliveroo/img/page-footer--social-24678b1c7cc1b04637a2df5d63787b0e.svg') no-repeat -30px -35px;
+    width: 30px;
+    height: 32px;
+    display:inline-block;
+    text-indent: -99999px;
+    background-size:90px;
+}
+
+.sprite2:hover{
+    background-position:-30px 0;
+}
+
+.sprite3{
+    background: url('/home/matthieu/Documents/Deliveroo/img/page-footer--social-24678b1c7cc1b04637a2df5d63787b0e.svg') no-repeat -64px -35px;
+    width: 30px;
+    height: 32px;
+    display:inline-block;
+    text-indent: -99999px;
+    background-size:90px;
+}
+
+.sprite3:hover{
+    background-position:-64px 0;
+}
+
+.copyright{
+    color:#434848;
+}
