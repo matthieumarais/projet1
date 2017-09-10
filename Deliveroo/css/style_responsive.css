@@ -9,6 +9,9 @@
     .bgLogoSection1 div {
         height: 490px;
     }
+    .parallelogramme1::before {
+        left: 430px;
+    }
 }
 /****************************************************************************************/
 
@@ -51,6 +54,13 @@
         margin-top:0;
     }
 
+    .parallelogramme1::before {
+        left: 265px;
+        top:-1px;
+        height:249px;
+        width:200px;
+    }
+
     .footerBlocs{
         padding:15px 10px;
     }
@@ -77,13 +87,19 @@
     padding-top:0;
 }
 
+.diago{
+    background-image: linear-gradient(-6deg, #00ccbc 25%, transparent 25.04%);
+    margin-bottom:-1px;
+}
+
 .bgSection1{
     padding:25px 10px;
 }
 
 .bgLogoSection1 {
     background: url(/home/matthieu/Documents/projet1/Deliveroo/img/pasta-wide.jpg) no-repeat -50px -410px;
-    background-size: 200%
+    background-size: 200%;
+    padding-right:0;
 }
 
 .bgLogoSection1 div {
@@ -147,7 +163,17 @@ h2 {
     font-size: 25px;
     line-height: 30px;
 }
+.parallelogramme1::before {
 
+    height:0;
+    width:0;
+
+}
+
+.parallelogramme2::after {
+    content: " ";
+    width:0;
+    height:0;
 
     .txtHotRspsive img{
         width:100%;
