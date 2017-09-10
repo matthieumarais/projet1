@@ -61,8 +61,20 @@
 /**********************************************  xs  ************************************/
 
 @media all and (max-width: 767px){	
-.hamburglar{
-	display:block
+.navbar-collapse{
+    border-top:none;
+    margin-top:10px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color:#fff;
+}
+
+.navbar-nav{
+    margin:-1px 0;
+}
+
+.navbar-brand{
+    padding-top:0;
 }
 
 .bgSection1{
