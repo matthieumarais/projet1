@@ -225,6 +225,11 @@ section .btnSearch{
     background-size:cover;
 }
 
+.blocDelivery > div:hover{
+    opacity: 0.7;
+    transition:all ease 0.3s;
+}
+
 .bloc9 a{
     background:url("/home/matthieu/Documents/projet1/Deliveroo/img/file (8).jpg")no-repeat 0 0;
     background-size:cover;
@@ -278,11 +283,6 @@ section .btnSearch{
 .bloc19 a{
     background:url("/home/matthieu/Documents/projet1/Deliveroo/img/file (18).jpg")no-repeat 0 0;
     background-size:cover;
-}
-
-.bloc8:hover{
-    background-color:rgba(255, 255, 255,0.3);
-    transition:all ease 0.3s;
 }
 
 .optionList ul{
