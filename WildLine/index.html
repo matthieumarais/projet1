@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Réserver vos billets de train en France et en Europe | Wildline
+    </title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Twitter JS -->
+    <script>window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
+          
+            return t;
+          }(document, "script", "twitter-wjs"));</script>
+</head>
+
+
+<body>
+        <div class="header-container container-fluid">
+                <div class="navbar_content container">
+                        <div class="col-md-2 header-logo">
+                            <img src="img/logo.png">
+                        </div>
+                        <div class="col-md-8 header-boutons">
+                        <button type="button" class="btn btn_header btn_header_left">créer un compte</button>
+                        <button type="button" class="btn btn_header">se connecter</button>
+                        </div>
+                        <div class="col-md-1 header-help">
+                        <p>AIDE</p>
+                        </div>
+                        <div class="col-md-1 header-help">
+                                <img src="img/fr.svg">
+                                <p>EUR</p>
+                                </div>
+                    
+                    
+                </div>
+        </div>
+    <section>
+        <div class="home">
+            <div class="container-fluid home">
+                <div class="container home_intro">
+                    <h1 class="home_headline">Réservez vos billets de train. En France et en Europe.</h1>
+                    <h2 class="home_subline">Voyagez avec WildLine, leader indépendant de la vente de billets de train en Europe.</h2>
+                    <div class="container home_form col-xs 6">
+                        <div class="header_home_info">
+                            <h3>Quel est votre trajet ?</h3>
+                        </div>
+                        <form>
+                            <div class="form_info">
+                                <div class="input-group">
+                                    <span class="topinput input-group-addon"><i class="glyphicon glyphicon-log-in"></i></span>
+                                    <input type="text" class="topform form-control has-feedback has-feedback-left" id="place_departure" aria-describedby="place_departure"
+                                        placeholder="Saisissez votre gare de départ…">
+                                </div>
+                                <div class="input-group">
+                                    <span class="botinput input-group-addon"><i class="glyphicon glyphicon-log-out"></i></span>
+                                    <input type="text" class="botform form-control" id="place_arrival" aria-describedby="place_arrival" placeholder="Saisissez votre gare de d'arrivée…">
+                                </div>
+                            </div>
+                            <div class="form_info">
+                                <div class="input-group">
+                                    <span class="topinput input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                    <input type="text" class="topform form-control has-feedback has-feedback-left" id="date_departure" aria-describedby="date_departure"
+                                        placeholder="Aller">
+                                </div>
+                                <div class="input-group">
+                                    <span class="botinput input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                    <input type="text" class="botform form-control" id="date_arrival" aria-describedby="date_arrival" placeholder="Retour">
+                                </div>
+                            </div>
+                            <div class="form_info2">
+                                <div class="input-group">
+                                    <span class="nbvinput input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" class="nbvform form-control" id="nbvoyageurs" aria-describedby="nbvoyageurs" placeholder="1 Adulte (26-59)">
+                                    <span class="plusinput input-group-addon"><i class="glyphicon glyphicon-plus"></i></span>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="rechercher">Utiliser un code de réduction</a>
+                                <button class="btn btn-rechercher" type="submit">RECHERCHER</button>
+                            </div>
+                    </div>
+                    <div class="container home_info col-xs 6">
+                        <div class="container_fluid header_home_info2">
+                            <h3>Les petits plus de WildLine</h3>
+                        </div>
+                        <div class="content_home_info2">
+                            <ul class="home_info2_list">
+                                <li class="home_info2_list_item tag">
+                                    <div class="home_info2_list_item_text"><b>Vos billets au meilleur prix</b><br> Achetez vos billets aux prix fixés par les transporteurs,
+                                        sans frais supplémentaires.</div>
+                                </li>
+                                <li class="home_info2_list_item loyalty">
+                                    <div class="home_info2_list_item_text"><b>Cartes de réduction</b><br> Elles sont toutes acceptées, comme vos cartes de fidélité.</div>
+                                </li>
+                                <li class="home_info2_list_item pay">
+                                    <div class="home_info2_list_item_text"><b>Payez en toute sécurité</b><br> CB, Amex, PayPal, Chèques-Vacances ANCV&nbsp;: c’est
+                                        vous qui voyez.</div>
+                                </li>
+                            </ul>
+                            <div class="hr">
+                                <span>
+                                        Distributeur agréé
+                                    </span>
+                            </div>
+                            
+                                <div class="content_home_info2_partners">
+                                        <div class="home_partners_line">
+                                                <div class="home_partners_logo">
+                                                    <img class="partners_logo_view" src="img/sncf.svg" alt="sncf">
+                                                </div>
+                                                <div class="home_partners_logo">
+                                                    <img class="partners_logo_view" src="img/ouigo.svg" alt="ouigo">
+                                                </div>
+                                                <div class="home_partners_logo">
+                                                    <img class="partners_logo_view" src="img/idtgv.svg" alt="idtgv">
+                                                </div>
+                                                <div class="home_partners_logo">
+                                                    <img class="partners_logo_view" src="img/eurostar.png" alt="eurostar">
+                                                </div>
+                                        </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="container content before-partners">
+                    <h3 class="before-partners-title">Ils nous font confiance. Nous vendons leurs billets.</h3>
+                </div>
+            </div>
+        </div>
+                <div class="container content partners">
+                    <div class="partners_line1">
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/sncf.svg" alt="sncf">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/ouigo.svg" alt="ouigo">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/idtgv.svg" alt="idtgv">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/ouibus.svg" alt="ouibus">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/thalys.svg" alt="thalys">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/tgvlyria.svg" alt="tgvlyria">
+                        </div>
+                    </div>
+                    <div class="partners_line2">
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/db.svg" alt="db">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/trenitalia.svg" alt="trenitalia">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/renfe.svg" alt="renfe">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/thello.svg" alt="thello">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/italo.svg" alt="italo">
+                        </div>
+                        <div class="partners_logo">
+                            <img class="partners_logo_view" src="img/eurostar.png" alt="eurostar">
+                        </div>
+                    </div>
+                </div>
+                <div class="container content before-arguments">
+                    <h2>Tous les billets. Un seul guichet.</h2>
+                    <p>Nous vendons tous les billets que vous avez l’habitude d’acheter en France <br>et tous ceux dont vous
+                        pourriez avoir besoin à l’étranger.</p>
+                </div>
+                <div class="container-fluid arg_content">
+                    <div class="arg1 arguments">
+                        <div class="col-md-6 arg_photo1">
+                        </div>
+                        <div class="col-md-6 arg_text1">
+                            <h2>C’est simple et c’est tout.</h2>
+                            <p>Consultez les horaires des trains et le prix des billets dans une interface claire. Nous comparons
+                                les prix de plusieurs transporteurs, pour que vous n’ayez pas à le faire.</p>
+                        </div>
+                    </div>
+                    <div class="arg2 arguments">
+                        <div class="col-md-6 arg_text2">
+                            <h2>La très grande vitesse. Dès l’achat du billet.</h2>
+                            <p>Trouvez et payez vos billets sur notre site en moins de temps qu’il n’en faut pour perdre patience
+                                sur un site ordinaire. Soit à peu près 58 secondes.</p>
+                        </div>
+                        <div class="col-md-6 arg_photo2">
+                        </div>
+                    </div>
+                    <div class="arg3 arguments">
+                        <div class="col-md-6 arg_photo3">
+                        </div>
+                        <div class="col-md-6 arg_text3">
+                            <h2>Sans pub et sans reproche.</h2>
+                            <p>En choisissant de ne vendre que des billets, nous avons dû laisser certaines choses de côté,
+                                comme les publicités, les messages et les erreurs incompréhensibles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid features">
+                    <div class="container features_content">
+                        <h2>Comment ça marche ?</h2>
+                        <div class="container col-md-6 feature1">
+                                    <h3>Paiement</h3>
+                            
+                                    <div class="payment">
+                                        <img class="icon-cards" width="139" height="95" src="https://assets.trainline.eu/assets/images/open-home/icons/cards-cc4ccb22567fa0fec204e7aaae7a3f8b.svg">
+                                      <div class="or">Ou</div>
+                                      <img class="icon-paypal" width="110" height="34" src="https://assets.trainline.eu/assets/images/open-home/icons/paypal-d4915d56d6160a55c7888417ae53a658.svg">
+                                    </div>
+                            
+                                    <p>Nous soignons et sécurisons vos achats <br>comme s’ils n’avaient pas de prix.</p>
+                                  </div>
+                    <div class="container col-md-6 feature2">
+                                    <h3>Billets</h3>
+                            
+                                    <div class="billets">
+                                        <img class="icon-tickets" width="120" height="85" src="https://assets.trainline.eu/assets/images/open-home/icons/tickets-5842361da60d84a811b13651729c7b2b.svg">
+                                        <div class="or">Ou</div>
+                                        <img class="icon-eticket" width="90" height="95" src="https://assets.trainline.eu/assets/images/open-home/icons/eticket-89bda370d79334ab48d0b16eebe40764.svg">
+                                    </div>
+                            
+                                    <p>Vous obtenez un billet cartonné à retirer en gare <br>ou un e-billet à imprimer chez vous.</p>
+                                  </div>
+                    </div>
+                </div>
+                <div class="container-fluid getonboard">
+                    <h2>Montez à bord !</h2>
+                    <p>Arrêtez de vous prendre la tête. Prenez le train.</p>
+                    <button type="button" class="btn btn-getonboard btn-lg">Réserver un billet</button>
+                </div>
+                <div class="container-fluid testimonials">
+                    <h2>Demandez conseil à nos utilisateurs.</h2>
+                    <p>Tout le marketing du monde ne remplacera jamais ce que nos utilisateurs disent de nous. <br>C’est encore
+                        eux qui parlent le mieux de notre service.</p>
+                    <div class="container tweets">
+                        <div class="col-md-4 tweet1">
+                                <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">J’ai arrêté les boulots alimentaires pr faire ce que j’aime: l’informatique =&gt; portrait de Julien <a href="https://t.co/AMPNS4XPlG">https://t.co/AMPNS4XPlG</a> <a href="https://twitter.com/hashtag/d%C3%A9veloppeur?src=hash">#développeur</a> <a href="https://twitter.com/hashtag/web?src=hash">#web</a> <a href="https://t.co/5OEQNr80QC">pic.twitter.com/5OEQNr80QC</a></p>&mdash; Wild Code School (@WildCodeSchool) <a href="https://twitter.com/WildCodeSchool/status/902133670450012160">28 août 2017</a></blockquote>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="col-md-4 tweet2">
+                                <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">C&#39;est bientôt la <a href="https://twitter.com/hashtag/rentr%C3%A9e?src=hash">#rentrée</a> ! Voici une sélection d&#39;événements <a href="https://twitter.com/hashtag/tech?src=hash">#tech</a> à ne pas rater ! <a href="https://t.co/J02UDlN8Cj">https://t.co/J02UDlN8Cj</a> <a href="https://twitter.com/hashtag/digital?src=hash">#digital</a> <a href="https://t.co/RH2Vf6y4aN">pic.twitter.com/RH2Vf6y4aN</a></p>&mdash; Wild Code School (@WildCodeSchool) <a href="https://twitter.com/WildCodeSchool/status/903559952299589632">1 septembre 2017</a></blockquote>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="col-md-4 tweet3">
+                                <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Enedis lance une série de <a href="https://twitter.com/hashtag/jeux?src=hash">#jeux</a> <a href="https://twitter.com/hashtag/%C3%A9ducatifs?src=hash">#éducatifs</a> pour <a href="https://twitter.com/hashtag/enfants?src=hash">#enfants</a> en partenariat avec la Wild Code School <a href="https://t.co/B1T9eG40aS">https://t.co/B1T9eG40aS</a> <a href="https://twitter.com/enedis_centre">@enedis_centre</a> <a href="https://t.co/hRAhI1jukx">pic.twitter.com/hRAhI1jukx</a></p>&mdash; Wild Code School (@WildCodeSchool) <a href="https://twitter.com/WildCodeSchool/status/904964332622151680">5 septembre 2017</a></blockquote>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <a href="#" class="amour">
+                                Plus d’amour…
+                              </a>
+
+                              <div class="open-home__press">
+                                    <div class="open-home__content">
+                                      <a class="open-home-press__link" href="https://www.trainline.fr/press">
+                                          <img class="open-home-press__logo open-home-press__logo--france2" src="https://assets.trainline.eu/assets/images/open-home/press/france2-426c29639e964b6b8131b2234de3fa0e.png" alt="france2">
+                                          <img class="open-home-press__logo open-home-press__logo--20min" src="https://assets.trainline.eu/assets/images/open-home/press/20min-dee5c2ef164835bc76e9bf418954ce06.png" alt="20min">
+                                          <img class="open-home-press__logo open-home-press__logo--canalplus" src="https://assets.trainline.eu/assets/images/open-home/press/canalplus-3b6414c4f6fead5711bf008ec8f09c21.png" alt="canalplus">
+                                          <img class="open-home-press__logo open-home-press__logo--challenges" src="https://assets.trainline.eu/assets/images/open-home/press/challenges-d3f3161570179835b0735642742763ef.png" alt="challenges">
+                                          <img class="open-home-press__logo open-home-press__logo--figaro" src="https://assets.trainline.eu/assets/images/open-home/press/figaro-13b783c88bd90131113156f4028dfee5.png" alt="figaro">
+                                          <img class="open-home-press__logo open-home-press__logo--lci" src="https://assets.trainline.eu/assets/images/open-home/press/lci-0e0a2cba409560b2eb6b9e7563930181.png" alt="lci">
+                                          <img class="open-home-press__logo open-home-press__logo--lemonde" src="https://assets.trainline.eu/assets/images/open-home/press/lemonde-bb82c17ccd314dffc91373f3d72104fb.png" alt="lemonde">
+                                          <img class="open-home-press__logo open-home-press__logo--ouifm" src="https://assets.trainline.eu/assets/images/open-home/press/ouifm-62b6adbb090d1496b440ba9ce15873f3.png" alt="ouifm">
+                                          <img class="open-home-press__logo open-home-press__logo--parisien" src="https://assets.trainline.eu/assets/images/open-home/press/parisien-5ff202730d637a2c595eeb976c133c40.png" alt="parisien">
+                                          <img class="open-home-press__logo open-home-press__logo--techcrunch" src="https://assets.trainline.eu/assets/images/open-home/press/techcrunch-55076242894a2d1ff551f1f6765f5ef7.png" alt="techcrunch">
+                                      </a>
+                                    </div>
+                                  </div>
+                    </div>
+    </div>
+    </div>
+            
+    <footer class="tle tle-footer">
+            <div class="tle-footer-upper">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4 visible-xs tle-footer-app">
+                    <div class="tle-footer-app-cta">
+                      <div class="tle-footer-icons">
+                        <a href="https://itunes.apple.com/fr/app/id599502670">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/fr/app-store.svg" alt="Télécharger dans l’App Store">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.capitainetrain.android&amp;hl=fr">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/fr/google-play.svg" alt="Disponible sur Google Play">
+                        </a>
+                      </div>
+                      <div class="tle-footer-textbox">
+                        <p>Chaque mois, plus de 16,5 millions de personnes visitent les sites ou applications Trainline. <a href="https://www.trainline.fr/information/trainline-eu-app">Téléchargez l’app</a>.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-6 tle-footer-company-info">
+                    <div class="row">
+                      <div class="col-md-12 col-xs-6">
+                        <div class="tle-footer-spacer">
+                          <img src="img/grey-logo.png" alt="Trainline" class="tle-footer-logo">
+                        </div>
+                        <ul>
+                          <li><a href="https://www.trainline.fr/contact">Contacter Trainline</a></li>
+                          <li><a href="https://aide.trainline.fr/">Site d’aide</a></li>
+                          <li><a href="https://www.trainline.fr/about/us">Qui sommes-nous ?</a></li>
+                          <li>
+                            <a href="https://www.trainline.fr/press">Informations presse</a>
+                            <span>&amp;</span>
+                            <a href="https://blog.trainline.fr/">Blog</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-12 col-xs-6">
+                        <ul>
+                          <li><a href="https://www.trainline.fr/business">Pour les entreprises</a></li>
+                          <li><a href="https://www.trainline.fr/jobs">Offres d’emploi</a></li>
+                          <li>
+                            <a href="https://www.trainline.fr/terms">CGV</a>
+                            <span>&amp;</span>
+                            <a href="https://www.trainline.fr/legal-information">Informations légales</a>
+                          </li>
+                          <li>
+                            <a href="https://www.trainline.fr/privacy-policy">Données personnelles</a>
+                            <span>&amp;</span>
+                            <a href="https://www.trainline.fr/cookies">Cookies</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-6 hidden-xs tle-footer-app">
+                    <div class="tle-footer-app-cta">
+                      <div class="tle-footer-spacer"></div>
+                      <div class="tle-footer-icons visible-sm">
+                        <a href="https://itunes.apple.com/fr/app/id599502670">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/fr/app-store.svg" alt="Télécharger dans l’App Store">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.capitainetrain.android&amp;hl=fr">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/fr/google-play.svg" alt="Disponible sur Google Play">
+                        </a>
+                      </div>
+                      <div class="tle-footer-textbox">
+                        <p>Chaque mois, plus de 16,5 millions de personnes visitent les sites ou applications Trainline. <a href="https://www.trainline.fr/information/trainline-eu-app">Téléchargez l’app</a>.</p>
+                      </div>
+                      <div class="tle-footer-icons hidden-sm">
+                        <a href="https://itunes.apple.com/fr/app/id599502670">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/fr/app-store.svg" alt="Télécharger dans l’App Store">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.capitainetrain.android&amp;hl=fr">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/fr/google-play.svg" alt="Disponible sur Google Play">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="row">
+                      <div class="visible-xs-block visible-sm-block col-xs-12">
+                        <div class="tle-footer-accordion-folder" id="tle-footer-accordion">
+                          <img src="https://static.trainlinecontent.com/content/WEB/images/footer/carat.svg" class="tle-footer-accordion-carat " alt="Plus d’informations">
+                          <div class="tle-footer-accordion-header ">
+                            <span>Destinations ∙ Horaires de train</span>
+                            <span class="tle-footer-accordion-disappearing-dot"> ∙ </span>
+                            <span class="visible-xs-block visible-sm-inline">Stations ∙ Voyager en train</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tle-footer-train-links tle-footer-toggled">
+                        <div class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><h4><a href="https://www.trainline.fr/destinations">Destinations</a></h4></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-paris">Trains pour Paris</a></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-lyon">Trains pour Lyon</a></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-nice">Trains pour Nice</a></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-marseille">Trains pour Marseille</a></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-bordeaux">Trains pour Bordeaux</a></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-toulouse">Trains pour Toulouse</a></li>
+                              <li><a href="https://www.trainline.fr/destinations/trains-pour-montpellier">Trains pour Montpellier</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><h4><a href="https://www.trainline.fr/horaires-train">Horaires</a></h4></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/paris-a-marseille">Paris – Marseille</a></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/marseille-a-paris">Marseille – Paris</a></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/paris-a-lyon">Paris – Lyon</a></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/paris-a-bordeaux">Paris – Bordeaux</a></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/paris-a-toulouse">Paris – Toulouse</a></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/paris-a-lille">Paris – Lille</a></li>
+                              <li><a href="https://www.trainline.fr/horaires-train/paris-a-london">Paris – Londres</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><h4><a href="https://www.trainline.fr/gares">Gares</a></h4></li>
+                              <li><a href="https://www.trainline.fr/gares/paris-gare-du-nord">Paris Gare du Nord</a></li>
+                              <li><a href="https://www.trainline.fr/gares/paris-gare-de-lyon">Paris Gare de Lyon</a></li>
+                              <li><a href="https://www.trainline.fr/gares/paris-gare-montparnasse">Paris Gare Montparnasse</a></li>
+                              <li><a href="https://www.trainline.fr/gares/paris-gare-de-lest">Paris Gare de l’Est</a></li>
+                              <li><a href="https://www.trainline.fr/gares/lyon-part-dieu">Lyon Part-Dieu</a></li>
+                              <li><a href="https://www.trainline.fr/gares/paris-gare-st-lazare">Paris Gare St-Lazare</a></li>
+                              <li><a href="https://www.trainline.fr/gares/marseille-st-charles">Marseille St-Charles</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><h4><a href="https://www.trainline.fr/information">Voyager en train</a></h4></li>
+                              <li><a href="https://www.trainline.fr/information/cartes-abonnements-de-train">Cartes &amp; abonnements SNCF</a></li>
+                              <li><a href="https://www.trainline.fr/information/les-trains-en-france">Trains en France</a></li>
+                              <li><a href="https://www.trainline.fr/information/trains-en-espagne">Trains en Espagne</a></li>
+                              <li><a href="https://www.trainline.fr/information/trains-en-italie">Trains en Italie</a></li>
+                              <li><a href="https://www.trainline.fr/information/trains-en-allemagne">Trains en Allemagne</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="tle-footer-lower">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-3 col-sm-4 tle-footer-social hidden-xs">
+                      <h5>Suivez-nous</h5>
+                      <a href="https://www.facebook.com/trainline.fr"><img src="https://static.trainlinecontent.com/content/WEB/images/footer/facebook.svg" alt="Facebook"></a>
+                      <a href="https://twitter.com/trainline_fr"><img src="https://static.trainlinecontent.com/content/WEB/images/footer/twitter.svg" alt="Twitter"></a>
+                    </div>
+                    <div class="col-sm-6 hidden-xs"></div>
+                    <div class="col-xs-12 col-sm-8 tle-footer-pay-logos">
+                        <img src="https://static.trainlinecontent.com/content/WEB/images/footer/apple-pay-logo.svg" alt="Apple Pay">
+                      <img src="https://static.trainlinecontent.com/content/WEB/images/footer/paypal-logo.svg" alt="PayPal">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </footer>
